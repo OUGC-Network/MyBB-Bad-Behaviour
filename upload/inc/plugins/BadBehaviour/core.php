@@ -46,10 +46,6 @@ declare(strict_types=1);
 
 namespace BadBehaviour\Core;
 
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 function languageLoad(): void
 {
     global $lang;
