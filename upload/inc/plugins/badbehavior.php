@@ -74,9 +74,9 @@ if (defined('IN_ADMINCP')) {
     addHooks('BadBehaviour\Hooks\Admin');
 }
 
-define('BadBehaviour\Core\VERSION', '2.0.0');
+define('BadBehaviour\Core\VERSION', '2.0.1');
 
-define('BadBehaviour\Core\VERSION_CODE', 2000);
+define('BadBehaviour\Core\VERSION_CODE', 2001);
 
 /**
  * Functions/options needed by Bad Behaviour
