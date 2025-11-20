@@ -1,0 +1,42 @@
+{
+  "strict": {
+    "optionscode": "yesno",
+    "value": 0
+  },
+  "logging": {
+    "optionscode": "yesno",
+    "value": 1
+  },
+  "verbose": {
+    "optionscode": "yesno",
+    "value": 0
+  },
+  "httpbl_key": {
+    "optionscode": "text",
+    "value": ""
+  },
+  "httpbl_threat": {
+    "optionscode": "numeric",
+    "value": 25
+  },
+  "httpbl_maxage": {
+    "optionscode": "numeric",
+    "value": 30
+  },
+  "eu_cookie": {
+    "optionscode": "yesno",
+    "value": 0
+  },
+  "reverse_proxy": {
+    "optionscode": "yesno",
+    "value": 0
+  },
+  "reverse_proxy_header": {
+    "optionscode": "text",
+    "value": "X-Forwarded-For"
+  },
+  "reverse_proxy_addresses": {
+    "optionscode": "textarea",
+    "value": ""
+  }
+}
