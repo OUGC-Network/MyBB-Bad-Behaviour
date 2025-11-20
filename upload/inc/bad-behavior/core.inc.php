@@ -16,8 +16,8 @@ function bb2_banned($settings, $package, $key, $previous_key = false): void
 	sleep(2);
 
 	require_once BB2_CORE . '/banned.inc.php';
+    bb2_log_denial($settings, $package, $key, $previous_key);
 	bb2_display_denial($settings, $package, $key, $previous_key);
-	bb2_log_denial($settings, $package, $key, $previous_key);
 
 	if (is_callable('bb2_banned_callback'))
 	{
